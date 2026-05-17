@@ -42,29 +42,28 @@ LangchainMultiAgentResearchSystem_Project/
 ---
 
 ## 🤖 Agents & Chains
-
+ 
 | Component | Type | Role |
 |-----------|------|------|
-| **Search Agent** | LangGraph ReAct Agent | Uses Tavily to search for recent, reliable information |
-| **Reader Agent** | LangGraph ReAct Agent | Picks the best URL and scrapes its full content |
+| **Search Agent** | LangChain Agent | Uses Tavily to search for recent, reliable information |
+| **Reader Agent** | LangChain Agent | Picks the best URL and scrapes its full content |
 | **Writer Chain** | LangChain Chain | Synthesizes all research into a structured report |
 | **Critic Chain** | LangChain Chain | Reviews the report and suggests improvements |
-
+ 
 ---
-
+ 
 ## ⚙️ Tech Stack
-
+ 
 | Tool | Purpose |
 |------|---------|
 | **LangChain** | Agent framework & chains |
-| **LangGraph** | ReAct agent orchestration |
 | **Groq (Llama 3.3)** | Primary LLM backend |
 | **Tavily** | Web search API |
 | **BeautifulSoup4 / Trafilatura** | Web scraping |
 | **Streamlit** | Frontend UI |
 | **Render** | Cloud deployment |
 | **Python-dotenv** | Environment variable management |
-
+ 
 ---
 
 ## 🚀 Getting Started
