@@ -6,37 +6,12 @@ A production-ready **multi-agent AI pipeline** built with LangChain and LangGrap
 
 ## 🏗️ Architecture
 
-%```
-User Input (Topic)
-        │
-        ▼
-┌───────────────────┐
-│   Search Agent    │  ── Tavily Search API → finds top web results
-└───────────────────┘
-        │
-        ▼
-┌───────────────────┐
-│   Reader Agent    │  ── Scrapes the most relevant URL (BeautifulSoup / Trafilatura)
-└───────────────────┘
-        │
-        ▼
-┌───────────────────┐
-│   Writer Chain    │  ── Combines search + scraped content → drafts full report
-└───────────────────┘
-        │
-        ▼
-┌───────────────────┐
-│   Critic Chain    │  ── Reviews the report and provides structured feedback
-└───────────────────┘
-        │
-        ▼
-   Final Output
- (Report + Feedback)
-```%
-<img width="1440" height="1440" alt="image" src="https://github.com/user-attachments/assets/d046ab8e-2881-438e-bd63-f21a25ebb76e" />
+<img width="200" height="200" alt="researchmind_architecture_clean" src="https://github.com/user-attachments/assets/e165eb81-1114-4969-8ce2-1f20456057ed" />
 
 
-Each agent is independently built using **LangGraph's ReAct agent** pattern, allowing them to reason, use tools, and act in a loop until the task is complete.
+
+
+
 
 ---
 
