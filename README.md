@@ -6,7 +6,7 @@ A production-ready **multi-agent AI pipeline** built with LangChain and LangGrap
 
 ## 🏗️ Architecture
 
-```
+%```
 User Input (Topic)
         │
         ▼
@@ -32,7 +32,9 @@ User Input (Topic)
         ▼
    Final Output
  (Report + Feedback)
-```
+```%
+<img width="1440" height="1440" alt="image" src="https://github.com/user-attachments/assets/d046ab8e-2881-438e-bd63-f21a25ebb76e" />
+
 
 Each agent is independently built using **LangGraph's ReAct agent** pattern, allowing them to reason, use tools, and act in a loop until the task is complete.
 
