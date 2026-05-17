@@ -1,4 +1,4 @@
-from src.tools.tools import web_search, scrape_url
+from src.pipelines.pipeline import run_research_pipeline
 
-result = web_search.invoke("Latest news on Iran war")
-print(result)
+topic = "The impact of AI on the market job in 2026"
+run_research_pipeline(topic)
