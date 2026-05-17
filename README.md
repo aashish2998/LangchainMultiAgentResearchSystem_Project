@@ -6,7 +6,7 @@ A production-ready **multi-agent AI pipeline** built with LangChain and LangGrap
 
 ## 🏗️ Architecture
 
-<img width="200" height="200" alt="researchmind_architecture_clean" src="https://github.com/user-attachments/assets/e165eb81-1114-4969-8ce2-1f20456057ed" />
+<img width="400" height="400" alt="researchmind_architecture_clean" src="https://github.com/user-attachments/assets/e165eb81-1114-4969-8ce2-1f20456057ed" />
 
 
 
