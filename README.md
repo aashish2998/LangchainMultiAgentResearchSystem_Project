@@ -1,6 +1,6 @@
 # 🔬 ResearchMind AI — LangChain Multi-Agent Research System
 
-A production-ready **multi-agent AI pipeline** built with LangChain and LangGraph that automates end-to-end research on any topic. Just enter a topic — the system searches the web, scrapes relevant sources, writes a structured report, and critiques it, all autonomously.
+A production-ready **multi-agent AI pipeline** built with LangChain that automates end-to-end research on any topic. Just enter a topic — the system searches the web, scrapes relevant sources, writes a structured report, and critiques it, all autonomously.
 
 ---
 
